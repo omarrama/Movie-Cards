@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Movie-Cards/static/css/main.25a02d88.css",
+    "main.js": "/Movie-Cards/static/js/main.8df56e5e.js",
+    "static/media/logo.png": "/Movie-Cards/static/media/logo.30922c134bb3dd107cbf.png",
+    "index.html": "/Movie-Cards/index.html",
+    "main.25a02d88.css.map": "/Movie-Cards/static/css/main.25a02d88.css.map",
+    "main.8df56e5e.js.map": "/Movie-Cards/static/js/main.8df56e5e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25a02d88.css",
+    "static/js/main.8df56e5e.js"
+  ]
+}
