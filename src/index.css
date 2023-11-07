@@ -1,0 +1,112 @@
+:root {
+  --primary-color: #b45b35;
+}
+
+.color {
+  color: #b45b35;
+  background-color: #b45b35;
+}
+
+body {
+  margin: 0;
+}
+
+.body-style {
+  min-height: 100vh;
+  background-color: #fff;
+  font-family: "Rubik", sans-serif;
+}
+
+.nav-style {
+  min-height: 70px;
+  padding: 10px 0;
+  background-color: var(--primary-color);
+}
+
+.search {
+  position: relative;
+}
+
+.search input {
+  border-radius: 20px;
+}
+
+.search input:focus {
+  box-shadow: none;
+  border: 3px dotted black;
+}
+
+.search-icon {
+  position: absolute;
+  top: 12px;
+  left: 20px;
+}
+
+.card {
+  position: relative;
+  cursor: pointer;
+  box-shadow: 0px 20px 50px -10px rgba(0, 0, 0, 0.2);
+}
+
+.card-image {
+  display: block;
+  border-radius: 5px;
+}
+
+.card-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: all 0.5s ease;
+  background-color: #393839;
+  border-radius: 5px;
+}
+
+.card:hover .card-overlay {
+  opacity: 0.8;
+}
+
+.overlay-text {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.movie-img {
+  height: 360px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.movie-info {
+  color: black;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.movie-story {
+  width: 600px;
+  border-radius: 20px;
+  background-color: var(--primary-color);
+}
+
+.movie-story-title {
+  color: black;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.movie-story-description {
+  color: black;
+  font-weight: 500;
+  font-size: 18px;
+}
